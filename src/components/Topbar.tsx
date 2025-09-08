@@ -122,7 +122,7 @@ export function Topbar({ onSearch }: { onSearch: (keyword: string) => void }) {
                       <SelectValue placeholder="Choose a topic to explore..." />
                     </SelectTrigger>
                     <SelectContent 
-                      className="max-h-80 w-full min-w-[300px] z-50" 
+                      className="max-h-80 w-full min-w-[300px] z-50 bg-background/80 backdrop-blur-md border border-border shadow-lg" 
                       position="popper"
                       sideOffset={4}
                     >
